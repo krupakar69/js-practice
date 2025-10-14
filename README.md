@@ -1,1 +1,1 @@
-this is the sample number generator code this is like my js learning proggress
+this is the simple counter saving web,this is like my js learning proggress
