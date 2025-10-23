@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #FFFD8F;
+    place-items: center;
+}
+#heading {
+    color:#043915;
+    font-weight: bolder;
+    background-color: #B0CE88;
+    margin-top: 30px;
+    border: 2px solid #043915;
+    border-radius: 5px;
+    padding:20px;
+}
+
+#line p {
+    color: #043915;
+    background-color: #B0CE88;
+    padding: 5px;
+    position: absolute;
+    top: 25%;
+    border: 2px solid #043915;
+    border-radius: 5px;
+}
+#write {
+    position: absolute;
+    top:35%;
+    width: 10%;
+    height:7%;
+    color: #043915;
+    font-weight: bold;
+    font-size: xx-large;
+    left: 45%;
+    border-radius: 10px;
+    background-color: white;
+}
+#myguess {
+    position: absolute;
+    top:47%;
+    width: 15%;
+    height: 7%;
+    background-color: #B0CE88;
+    color: #043915;
+    font-size: larger;
+    border: 2px solid #043915;
+    left:43%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.wrong{
+    width:40%;
+   position: absolute;
+    top: 60%;
+    left: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5%;
+    border: 2px solid #043915;
+    border-radius: 5px;
+    background-color: #B0CE88;
+
+}
+.wrong p{
+     font-size: larger;
+     background-color: #B0CE88;
+}
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
+  button, input {
+    width: 100%;
+  }
+}
+
+
